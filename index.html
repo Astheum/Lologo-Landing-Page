@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/arco-iris.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Lologo</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="">
+                <a href="index.html"><img src="Imagens/lolo-lm.png" height="150px"></a>
+            </div>
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Behance</a></li>
+                    <li><a href="index.html">Contato</a></li>
+                    <img src="Imagens/close-icon.png" height="50px" class="close-icon">
+                </ul>
+            </nav>
+            <button class="menu-icon"><img src="Imagens/menu-icon.png" height="50px"></button>
+        </header>
+        <main>
+            <section class="main_left">
+                <br>
+                <br>
+                <br>
+                <h1><b>O recomeço.</b></h1>
+                <br>
+                <br>
+                <p>
+                    A Lologo foi criada com o intuito de me encontrar novamente em algo, descobrir coisas novas e colocar em pratica ideias que foram deixadas na gaveta.
+                    <br>
+                    <br>
+                    Estrelas, por do sol e carisma, os elementos usados na construção se referem particularmente a cada parte da minha personalidade.
+                </p>
+            </section>
+            <section class="main_right">
+                    <img src="Imagens/lologo-lm.png" width="600px" width="100%">
+            </section>
+        </main>
+    </div>
+    <script>
+        var menu = document.querySelector('nav');
+        var menuIcon = document.querySelector('.menu-icon');
+        var closeIcon = document.querySelector('.close-icon');
+        menuIcon.addEventListener('click',()=>{
+            menu.classList.add('active');
+        });
+        closeIcon.addEventListener('click',()=>{
+            menu.classList.remove('active');
+        });
+    </script>
+    <main>
+    </main>
+</body>
+</html>
