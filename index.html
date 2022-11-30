@@ -11,18 +11,21 @@
 <body>
     <div class="container">
         <header>
-            <div class="">
+            <div>
                 <a href="index.html"><img src="Imagens/lolo-lm.png" height="150px"></a>
             </div>
             <nav>
                 <ul class="menu-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Behance</a></li>
-                    <li><a href="index.html">Contato</a></li>
+                    <li><a href="https://www.behance.net/gallery/156558959/Lologo" target="_blank">Lologo</a></li>
+                    <li><a href="https://www.behance.net/loreninhapsd" target="_blank">Behance</a></li>
+                    <li><a href="https://qr.link/7aHiBJ" target="_blank">Contato</a></li>
                     <img src="Imagens/close-icon.png" height="50px" class="close-icon">
+                    <li><input name="color" id="light"type="radio" checked></li>
+                    <li><input name="color" id="dark"type="radio"></li>
                 </ul>
+
+                <button class="menu-icon"><img src="Imagens/menu-icon.png" height="50px"></button>
             </nav>
-            <button class="menu-icon"><img src="Imagens/menu-icon.png" height="50px"></button>
         </header>
         <main>
             <section class="main_left">
@@ -40,10 +43,11 @@
                 </p>
             </section>
             <section class="main_right">
-                    <img src="Imagens/lologo-lm.png" width="600px" width="100%">
+                    <img src="Imagens/lologo-lm.png" width="390px" width="100%">
             </section>
         </main>
     </div>
+    <script src="scripts.js"></script>
     <script>
         var menu = document.querySelector('nav');
         var menuIcon = document.querySelector('.menu-icon');
@@ -55,7 +59,5 @@
             menu.classList.remove('active');
         });
     </script>
-    <main>
-    </main>
 </body>
 </html>
