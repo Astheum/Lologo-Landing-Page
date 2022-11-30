@@ -92,7 +92,7 @@ main{
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 main .main_left{
@@ -114,7 +114,6 @@ main .main_left p{
 
 main .main_right img{
     padding-left: 120px;
-    padding-right: 120px;
 }
 
 @media (max-width:800px){
