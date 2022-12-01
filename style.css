@@ -200,14 +200,13 @@ input[type='radio']:checked{
 
 footer{
     position:relative;
-    bottom: -23vh;
+    bottom: -30vh;
     background-color: black;
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 8px;
+    padding: 8.7px;
     font-family: var(--tahoma);
-    font-variant: small-caps;
 }
 
 footer a{
