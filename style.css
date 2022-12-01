@@ -198,3 +198,24 @@ input[type='radio']:checked{
     --input-color: #110121;
 }
 
+footer{
+    margin-top: 210px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    font-family: var(--tahoma);
+    font-variant: small-caps;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
