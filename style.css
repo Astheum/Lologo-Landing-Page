@@ -199,12 +199,13 @@ input[type='radio']:checked{
 }
 
 footer{
-    margin-top: 210px;
+    position:relative;
+    bottom: -23vh;
     background-color: black;
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 8px;
     font-family: var(--tahoma);
     font-variant: small-caps;
 }
@@ -217,5 +218,5 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
-    color: #ff4177;
+    color: var(--cor1);
 }
